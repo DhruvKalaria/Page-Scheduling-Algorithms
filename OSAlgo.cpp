@@ -83,22 +83,6 @@ void optimal()	{
 		fr[i]=-1; // initialize the first row to -1
 	}
 
-	// Set the first row of size equal to pframe without any modification
-/*
-	for(j=0;j<pframe;j++)
-	{
-
-		fr[j]=pg[j];
-		flag=1;
-		pf++;
-		for(i=0;i<pframe;i++)
-		{
-			cout << fr[i] << "	";
-		}
-		cout << endl;
-	}
-*/
-
 	for(j=0;j<n;j++)
 	{
 		flag=0;
